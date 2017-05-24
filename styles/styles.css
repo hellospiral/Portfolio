@@ -1,6 +1,6 @@
 .landing-page {
     text-align: center;
-    color: #f8f8ff;
+    color: #8b7d6b;
     text-transform: uppercase;
     font-weight: 200;
     background-size: 100%;
@@ -8,7 +8,7 @@
 }
 
 #header {
-    background-image: url();
+    background-image: url('../img/header-background.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,8 +19,8 @@
 body {
 	margin: 0;
 	padding: 0;
-
 	font-family: 'Raleway', sans-serif;
+  background-color: #fffafa;
 }
 
 .intro h2 {
@@ -42,4 +42,18 @@ body {
 
 .card-img-top {
   width: 100%;
+}
+
+.card {
+  overflow: hidden;
+  box-shadow: 0 12px 15px 0 rgba(0,0,0,0.16), 0 12px 20px 0 rgba(0,0,0,0.12);
+  position: relative;
+  display: block;
+}
+
+.face {
+    width: 90px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
 }
