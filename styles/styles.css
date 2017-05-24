@@ -1,0 +1,32 @@
+.landing-page {
+    text-align: center;
+    color: #f8f8ff;
+    text-transform: uppercase;
+    font-weight: 200;
+    background-size: 100%;
+    padding-top: 20%;
+}
+
+#header {
+    background-image: url();
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    min-height: 100vh;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	
+	font-family: 'Raleway', sans-serif;
+}
+
+.intro h2 {
+  font-size: 400%;
+}
+
+.intro h6 {
+  font-size: 120%;
+}
