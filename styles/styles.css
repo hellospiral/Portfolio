@@ -1,8 +1,8 @@
 .landing-page {
     text-align: center;
+    font-family: 'Poiret One', sans-serif;
     color: #8b7d6b;
     text-transform: uppercase;
-    font-weight: 200;
     background-size: 100%;
     padding-top: 20%;
 }
@@ -19,7 +19,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Raleway', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   background-color: #fffafa;
 }
 
@@ -31,8 +31,17 @@ body {
   font-size: 120%;
 }
 
+.projects {
+  font-family: 'Raleway', sans-serif;
+}
+
+.quotes {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  display: none;
+}
+
 .projects-title h1 {
-    font-family: 'Roboto',sans-serif;
     font-weight: 300;
     font-size: 300%;
     color: #000;
@@ -56,4 +65,31 @@ body {
     height: auto;
     border-radius: 50%;
     margin: 0 auto;
+}
+
+.btn-custom {
+	background: #609490;
+	background-image: none;
+	border:none;
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 600;
+	text-decoration: none ! important;
+	text-shadow: none;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+}
+.btn-custom:hover {
+	background: #192D2B;
+	color: #609490;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-custom.btn-outline {
+    color: #609490;
 }
