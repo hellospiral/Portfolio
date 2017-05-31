@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,500,600,700" rel="stylesheet">
     <link href="styles/styles.css" type="text/css" rel="stylesheet">
+
+
   </head>
 
   <body>
@@ -122,6 +124,7 @@
             <p class="mb-0">"Matt was a great employee. He is passionate about learning and improving his back-end development skills. He also excels in writing qualifications.
 
             He’s been a great addition to the team."</p>
+            <br>
             <footer class="p-1 blockquote-footer">
               <img src='img/rubie.jpg' class="face rounded-circle">
               <a href='https://www.linkedin.com/in/rubirosatiburcio/'>Rubirosa Tiburcio</a>
@@ -149,6 +152,42 @@
         </div>
       </div>
     </div>
+
+    <hr>
+
+    <div class='container'>
+      <div class='row'>
+        <div class='col-sm-12 projects-title mt-3'>
+          <h1>Contact Me</h1>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-12'>
+          <form id="contact" method="post" action="https://formspree.io/matthewthomascarlson@gmail.com" class='form-group'>
+            <div class="field p-1">
+              <label for="name">Name:</label>
+              <input class='form-control' type="text" id="name" name="name" required>
+            </div>
+
+            <div class="field p-1">
+              <label for="email">Email:</label>
+              <input class='form-control' type="email" id="email" name="email" required>
+            </div>
+
+            <div class="field p-1">
+              <label for="message">Message:</label>
+              <textarea class='form-control' id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <div class="field p-1">
+              <button class='btn btn-custom' type="submit">Send</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="scripts/script.js"></script>
