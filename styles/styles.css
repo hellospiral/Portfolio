@@ -98,3 +98,11 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-weight: lighter;
 }
+
+.fa {
+  color: #609490;
+}
+
+.center {
+  text-align: center;
+}
