@@ -71,6 +71,7 @@ body {
 	background: #609490;
 	background-image: none;
 	border:none;
+  border-radius: 25px;
 	color: #fff;
 	letter-spacing: 1px;
 	font-weight: 600;
@@ -82,6 +83,24 @@ body {
 .btn-custom:hover {
 	background: #192D2B;
 	color: #609490;
+}
+
+.grower {
+  width: 180px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.grower:hover {
+  width: 200px;
+}
+
+.grower-sm {
+  width: 120px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.grower-sm:hover {
+  width: 130px;
 }
 
 .btn-outline {
@@ -101,6 +120,11 @@ body {
 
 .fa {
   color: #609490;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.fa:hover {
+  color: #324d4b;
 }
 
 .center {
