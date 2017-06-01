@@ -14,3 +14,10 @@
     showNextQuote();
 
 })();
+
+$(document).ready(function() {
+  $('#getInTouch').click(function() {
+
+    $(window).scrollTo(document.getElementById('contact'), 800);
+  });
+});

@@ -93,3 +93,8 @@ body {
 .btn-custom.btn-outline {
     color: #609490;
 }
+
+#getInTouch {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
+}
