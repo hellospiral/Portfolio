@@ -67,6 +67,23 @@ body {
     margin: 0 auto;
 }
 
+.crop {
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 5%;
+}
+
+.crop img {
+  margin-top: -180px;
+  margin-left: -20px;
+}
+
+.smaller {
+  width: 400px;
+  height: auto;
+}
+
 .btn-custom {
 	background: #609490;
 	background-image: none;
@@ -82,6 +99,12 @@ body {
 }
 .btn-custom:hover {
 	background: #192D2B;
+	color: #609490;
+}
+
+button:focus {
+  outline:0 !important;
+  background: #192D2B;
 	color: #609490;
 }
 
@@ -129,4 +152,12 @@ body {
 
 .center {
   text-align: center;
+}
+
+.hideme {
+  opacity:0;
+}
+
+.hideMeQuicker {
+  opacity:0;
 }
